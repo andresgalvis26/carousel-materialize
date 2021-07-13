@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="/estilos.css">
+    <title>Carousel Materialize</title>
+</head>
+<body>
+
+    <div class="container section">
+        <div class="row">
+            <div class="col s12">
+
+                <h1 class="">Carousel de Imagenes:</h1>
+
+                <hr>
+                <br>
+
+                <div class="carousel carousel-slider">
+
+                    <a href="" class="carousel-item">
+                        <img src="/img/img1.jpg" alt="">
+                    </a>
+
+                    <a href="" class="carousel-item">
+                        <img src="/img/img2.jpg" alt="">
+                    </a>
+
+                    <a href="" class="carousel-item">
+                        <img src="/img/img3.jpg" alt="">
+                    </a>
+
+                    <a href="" class="carousel-item">
+                        <img src="/img/img4.jpg" alt="">
+                    </a>
+
+                    <a href="" class="carousel-item">
+                        <img src="/img/img5.jpg" alt="">
+                    </a>
+
+                    <a href="" class="carousel-item">
+                        <img src="/img/img6.jpg" alt="">
+                    </a>
+
+                    <a href="" class="carousel-item">
+                        <img src="/img/img7.jpg" alt="">
+                    </a>
+
+                    <a href="" class="carousel-item">
+                        <img src="/img/img8.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.carousel');
+        var instances = M.Carousel.init(elems, {
+            duration: 400,
+            indicators: true,
+            fullWidth: true
+        });
+    });
+
+    </script>
+</body>
+</html>
